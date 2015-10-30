@@ -121,7 +121,7 @@ CasperError.prototype = Object.getPrototypeOf(new Error());
                 return __die('CasperJS needs at least PhantomJS v1.8.1 or later.');
             }
         } else if (version.major === 2) {
-            console.log("Warning PhantomJS v2.0 not yet released. There will not be any official support for any bugs until stable version is released!");
+            //console.log("Warning PhantomJS v2.0 not yet released. There will not be any official support for any bugs until stable version is released!");
         }
         else return __die('CasperJS needs PhantomJS v1.x or v2.x');
     })(phantom.version);

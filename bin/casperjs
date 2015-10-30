@@ -41,7 +41,7 @@ SUPPORTED_ENGINES = {
             'w',
         ],
         'env_varname': 'PHANTOMJS_EXECUTABLE',
-        'default_exec' : 'phantomjs'
+        'default_exec' : './node_modules/casperjs/phantom/phantomjs'
     },
     'slimerjs': {
         'native_args': [
