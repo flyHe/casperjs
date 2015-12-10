@@ -19,7 +19,7 @@ It followed the [Casperjs](https://github.com/n1k0/casperjs) git repository.
 >- `chmod +x phantomjs`
 >
 >**For RHEL 6: **
->- ongoing
+>- in progress
 
 ## Sample test
 
